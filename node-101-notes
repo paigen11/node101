@@ -1,0 +1,10 @@
+A node program typically goes like this:
+1. define the type of interaction and use the require method to get a var for it
+2. create a new server
+3. hand the server a function to handle any requests it gets
+4. the request will need a 'request' object and it will send back a 'response' obj
+5. tell the server to start listening and handling requests at a particular port ('listening on port 8000')
+
+
+JSON passes info around the internets
+ - it stands for javascript object notation
